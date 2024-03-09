@@ -72,6 +72,20 @@ body{
     font-size: 1.2rem;
     font-weight: bold;
 }
+@media (max-width:400px){
+    #b1{
+        position: relative;
+        top: 50px;
+        left: 3px;
+        height: 40px;
+        width: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
 .third{
     background-color: #ffd7ad;
     height: 300px;
@@ -92,6 +106,14 @@ body{
     align-items: center;
     justify-content: center;
 }
+@media (max-width: 420px){
+    .container2 h1{
+        font-size: 1.8rem;
+        left: 24px;
+        top: 24px;
+
+    }
+}
 .container2 p{
     color:#4a1831;
     font-size: 1.3rem;
@@ -100,6 +122,14 @@ body{
     left: 130px;
     display: flex;
     justify-content: center;
+}
+@media (max-width: 420px){
+    .container2 p{
+        font-size: 1.1rem;
+        left: 30px;
+        top: 30px;
+    }
+
 }
 .b2{
     background-color:#4a1831;
@@ -116,13 +146,32 @@ body{
     font-size: 1.2rem;
     font-weight: bold;
 }
+@media(max-width:420px ){
+    .b2{
+        top:60px;
+        left: 100px;
+    }
+}
 .forth{
-    background-image:url("download\ \(2\).png");
+    background-image:url("https://mariachisbrenham.com/wp-content/uploads/2019/05/cropped-Depositphotos_44519805_xl-2015.jpg");
+    object-fit: cover;
+    object-position: bottom;
     width: 100%;
-    height: 340px;
+    height: 440px;
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size:cover;
 
+}
+@media(max-width:420px){
+    .forth{
+        background-image: url("https://resizer.otstatic.com/v2/photos/wide-huge/2/32449465.jpg");
+    }
+}
+@media(max-width:420px){
+    .forth{
+        background-size: c;
+        object-fit: cover;
+    }
 }
 .fifth{
     background-color: #ffd7ad;
@@ -133,8 +182,15 @@ body{
     color: #55112e;
     position: absolute;
     left: 620px;
-    top: 1260px;
+    top: 1360px;
     font-size: 2rem;
+}
+@media (max-width:420px){
+    .text1 h1{
+        margin-bottom: 10px;
+        font-size: 1.8rem;
+        left: 40px;
+    }
 }
 .container3{
     position: relative;
@@ -148,6 +204,22 @@ body{
     border-top-right-radius: 150px;
     border-top-left-radius: 150px;
     width: 350px;
+}
+@media(max-width:420px){
+    #fi_id{
+        height: 260px;
+        width: 260px;
+        position: relative;
+        right: 90px;
+    }
+}
+@media (max-width:420px){
+    .text1 {
+        font-size: 1.2rem;
+        position: absolute;
+        top: 1640px;
+        left: 40px;
+    }
 }
 .fi1{
     color: #e63956;
@@ -176,6 +248,27 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
 }
+@media(max-width:420px){
+    .fi1{
+        top: 280px;
+        font-size: 6rem;
+        left: -120px;
+    }
+}
+@media(max-width:420px){
+    .fi2{
+        top: 250px;
+        font-size: 4rem;
+        left: -120px;
+    }
+}
+@media(max-width:420px){
+    .fi3{
+        top: 340px;
+        font-size: 4rem;
+        left: 10px;
+    }
+}
 .fi4{
     background-color: #ffd7ad;
     position:relative;
@@ -183,6 +276,16 @@ body{
     top: 0px;
     float: left;
     left: 320px;
+}
+@media(max-width:620px){
+    .fi4 img{
+        height: 400px;
+        width: 400px;
+        position: relative;
+        float: left;
+        right: 320px;
+        top: 350px;
+    }
 }
 .b3{
     background-color: #4a1831;
@@ -196,6 +299,13 @@ body{
     left: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+@media (max-width:420px){
+    .b3{
+        font-size: 1.2rem;
+        position: relative;
+        left: 11px;
+    }
+}
 .six{
     background-color: #55112e;
     height: 400px;
@@ -205,11 +315,23 @@ body{
     height: 300px;
     width: 300px;
 }
+
 .six1{
     position: relative;
     top:50px;
     max-width:0%;
     left: 960px;
+}
+@media(max-width:420px){
+    .six1 {
+        left: 300px;
+    }
+}
+@media(max-width:420px){
+    .six1 img{
+        height: 100px;
+        width: 100px;
+    }
 }
 .container4{
     max-width: 2vw;
@@ -218,8 +340,14 @@ body{
     color:#ffd7ad;
     position: absolute;
     font-size: 1.8rem;
-    top: 2420px;
+    top: 2520px;
     left: 100px;
+}
+@media(max-width:420px){
+    .text2{
+        font-size: 1rem;
+        left: 10px;
+    }
 }
 .text2 p{
     font-size: 1.4rem;
@@ -227,6 +355,12 @@ body{
     top: 20px;
     left: 17px;
     min-width: 0%;
+}
+@media(max-width:420px){
+    .text2 p{
+        font-size: 1rem;
+        left: 10px;
+    }
 }
 .b4{
     background-color:#ffd7ad;
@@ -240,6 +374,11 @@ body{
     top: 80px;
     left: 60px;
 }
+@media(max-width:420px){
+    .b4{
+        left: 16px;
+    }
+}
 .seven{
     background-image: url("Screenshot\ \(118\).png");
     height: 600px;
@@ -250,6 +389,11 @@ body{
     position: relative;
     left: 340px;
 
+}
+@media(max-width:420px){
+    .container5 img{
+        left: 110px;
+    }
 }
 .container5{
     display: flex;
@@ -269,6 +413,43 @@ body{
     position: absolute;
     top: 400px;
     color: #ffd7ad;
+}
+@media(max-width:420px){
+    .container5 p{
+        font-size: 1.6rem;
+        left: -100px;
+    }
+}
+@media(max-width:420px){
+    .container5 h1{
+        left: 50px;
+    }
+}
+.backdrop
+{
+    position: relative;
+    top: -119px;
+    height: 100%;
+    width: 100%;
+    background-color:blue;
+    filter: opacity(10%);
+    backdrop-filter: blur(2px);
+    animation-name: colorchange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorchange{
+    20%{background-color: rgb(241, 6, 6)};
+    40%{background-color: rgb(237, 156, 6)};
+    20%{background-color:  rgb(1, 233, 1)};
+    40%{background-color:  rgb(228, 19, 228)};
+    80%{background-color:   rgb(158, 57, 74)};
+    100%{background-color:  rgb(2, 2, 227)};
+}
+@media(max-width:420px){
+    .backdrop{
+        top: -180px;
+    }
 }
 .eight{
     background-color:#ffd7ad;
@@ -292,12 +473,25 @@ body{
     font-family:Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
+@media(max-width:420px){
+    .container6 h1{
+        font-size: 2rem;
+        top: -40px;
+        left: 100px;
+    }
+}
 .container6 p{
     position: relative;
     top: 120px;
     right: 220px;
     color:#4a1831;
     font-size: 1.6rem;
+}
+@media(max-width:420px){
+    .container6 p{
+        font-size: 1.4rem;
+        left: -80px;
+    }
 }
 .input{
     position: relative;
@@ -308,6 +502,14 @@ body{
     display: flex;
     border-radius: 10rem;
     font-size: 1.3rem;
+}
+@media(max-width:420px){
+    .input{
+        left: 10px;
+        height: 40px;
+        width: 400px;
+        font-size: 1rem;
+    }
 }
 .bt8{
     height: 40px;
@@ -328,17 +530,18 @@ body{
     top: 220px;
     border-radius: 10rem;
     left: 960px;
-} 
-.backdrop
-{
-    position: relative;
-    top: -119px;
-    height: 100%;
-    width: 100%;
-    background-color:blue;
-    filter: opacity(10%);
-    backdrop-filter: blur(1px);
-} 
+}
+@media(max-width:420px){
+    .bt8{
+        left: 20px;
+        font-size: 1rem;
+    }
+}
+@media(max-width:420px){
+    .bt9{
+        left: 250px;
+    }
+}
 .nine{
     background-color:#4a1831;
     height: 600px;
@@ -355,6 +558,11 @@ body{
     color: #ffd7ad;
     font-size: 2.8rem;
 }
+@media(max-width:420px){
+    .container7 h1{
+        display: none;
+    }
+}
 .container7 p{
     position: relative;
     top: -20px;
@@ -364,6 +572,14 @@ body{
     float:right;
     right: 1080px;
     
+}
+@media(max-width:420px){
+    .container7 p{
+        display: none;
+        font-size: 1rem;
+        top: -100px;
+        left: -140px;
+    }
 }
 .b5{
     background-color: #ffc281;
@@ -443,6 +659,14 @@ body{
     justify-content:space-between;
     text-align: center;
 }
+@media(max-width:420px){
+    .b9{
+        font-size: 2rem;
+        top: 25px;
+        left: -290px;
+        margin-right: 10px;
+    }
+}
 .b10{
     position: relative;
     top: 140px;
@@ -454,6 +678,14 @@ body{
     align-items: center;
     justify-content:space-between;
     text-align: center;
+}
+@media(max-width:420px){
+    .b10{
+        font-size: 2rem;
+        top: 25px;
+        left: -90px;
+        margin-right: -20px;
+    }
 }
 .b11{
     position: relative;
@@ -467,6 +699,14 @@ body{
     justify-content:space-between;
     text-align: center;
 }
+@media(max-width:420px){
+    .b11{
+        font-size: 2rem;
+        top: 25px;
+        left: 100px;
+        margin-right: -10px;
+    }
+}
 .nine1{
     position: relative;
     top: 219px;
@@ -477,6 +717,14 @@ body{
     color: #ffc281;
     font-size: 1.3rem;
     line-height: 40px;
+}
+@media(max-width:420px){
+    .nine1{
+        font-size: 1rem;
+        top: 60px;
+        left: -36px;
+        margin-left: 10px;
+    }
 }
 .nine2{
     position: relative;
@@ -489,6 +737,14 @@ body{
     top:-150px;
     line-height: 40px;
 }
+@media(max-width:420px){
+    .nine2{
+        font-size: 1rem;
+        top: -260px;
+        left: -140px;
+        margin-left: 10px;
+    }
+}
 .nine3{
     position: relative;
     display: flex;
@@ -500,4 +756,12 @@ body{
     top: -280px;
     line-height: 40px;
     max-height: 1%;
+}
+@media(max-width:420px){
+    .nine3{
+        font-size: 1rem;
+        top: -386px;
+        left: -50px;
+        margin-left: 10px;
+    }
 }
